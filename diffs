@@ -1,0 +1,11 @@
+--- sshd_config_1st	2020-07-18 23:38:37.000000000 +0900
++++ sshd_config_2nd	2020-07-18 23:38:24.000000000 +0900
+@@ -35,7 +35,7 @@
+ # Authentication:
+ 
+ #LoginGraceTime 2m
+-PermitRootLogin yes
++PermitRootLogin no
+ #StrictModes yes
+ #MaxAuthTries 6
+ #MaxSessions 10
